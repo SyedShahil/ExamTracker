@@ -1,29 +1,10 @@
-import { useEffect } from "react";
+import React, { useState } from "react";
 function Signin() {
-  useEffect(() => {
-    const wrapper = document.querySelector(".wrapper") as HTMLElement | null;
-    const registerLink = document.querySelector(
-      ".register-link"
-    ) as HTMLElement | null;
-    const loginLink = document.querySelector(
-      ".login-link"
-    ) as HTMLElement | null;
-
-    if (wrapper && registerLink) {
-      registerLink.addEventListener("click", () => {
-        wrapper.classList.add("active");
-      });
-    }
-    if (wrapper && loginLink) {
-      loginLink.addEventListener("click", () => {
-        wrapper.classList.add("active");
-      });
-    }
-  }, []);
+  const [isActive, setIsActive] = useState(false);
   return (
     <>
       <div className="sign">
-        <div className="wrapper">
+        <div className={`wrapper ${isActive ? "active" : ""}`}>
           <span className="bg-animate"></span>
           <span className="bg-animate2"></span>
           <div className="form-box login">
@@ -63,7 +44,11 @@ function Signin() {
               >
                 <p>
                   Don't have an account?{" "}
-                  <a href="#" className="register-link">
+                  <a
+                    href="#"
+                    className="register-link"
+                    onClick={() => setIsActive(true)}
+                  >
                     Sign-Up
                   </a>
                 </p>
@@ -130,7 +115,11 @@ function Signin() {
               >
                 <p>
                   Already have an account?
-                  <a href="#" className="register-link">
+                  <a
+                    href="#"
+                    className="register-link"
+                    onClick={() => setIsActive(false)}
+                  >
                     Login
                   </a>
                 </p>
