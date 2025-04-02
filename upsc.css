@@ -1,0 +1,20 @@
+th,td
+{
+    border:1px solid black;
+}
+table{
+    margin-left:60px;
+    border:2px;
+}
+h3{
+    text-align:center;
+    color:brown;
+}
+.list
+{
+    line-height:2.5;
+}
+.upsc-page *
+{
+    word-spacing: 3px;
+}
