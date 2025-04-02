@@ -60,13 +60,21 @@ function Signin() {
               className="animation"
               style={{ "--i": 0, "--j": 20 } as React.CSSProperties}
             >
+<<<<<<< HEAD
               Welcome
+=======
+              Welcome Back!
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             </h2>
             <p
               className="animation"
               style={{ "--i": 1, "--j": 21 } as React.CSSProperties}
             >
+<<<<<<< HEAD
               <b>TO LOGIN PAGE.</b>
+=======
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             </p>
           </div>
 
@@ -131,13 +139,21 @@ function Signin() {
               className="animation"
               style={{ "--i": 17, "--j": 0 } as React.CSSProperties}
             >
+<<<<<<< HEAD
               Welcome
+=======
+              Welcome Back!
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             </h2>
             <p
               className="animation"
               style={{ "--i": 18, "--j": 1 } as React.CSSProperties}
             >
+<<<<<<< HEAD
               <b>TO SIGN-UP PAGE.</b>
+=======
+              Lorem ipsum dolor sit, amet consectetur adipisicing.
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             </p>
           </div>
         </div>

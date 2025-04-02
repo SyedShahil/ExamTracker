@@ -288,6 +288,7 @@
     transform:rotate(-11deg) skewY(-41deg); 
     transition-delay: 1.2s;
 
+<<<<<<< HEAD
 }
 .google-btn {
     display: flex;
@@ -313,3 +314,6 @@
     background-color: #eee;
 }
 
+=======
+}
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0

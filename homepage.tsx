@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 
 function Home() {
   return (
@@ -7,6 +8,17 @@ function Home() {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <Link className="navbar-brand" to="/">
+=======
+function Home() {
+  return (
+    <>
+      <nav
+        className="navbar navbar-expand-lg"
+        style={{ backgroundColor: "rgb(98, 23, 128)" }}
+      >
+        <div className="container">
+          <a className="navbar-brand" href="#">
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             <img
               src="/logo.jpg"
               alt="Logo"
@@ -14,6 +26,7 @@ function Home() {
               height="30"
               className="d-inline-block align-text-top"
             />
+<<<<<<< HEAD
           </Link>
           <ul className="nav nav-tabs">
             <li className="nav-item me-4">
@@ -45,6 +58,39 @@ function Home() {
               <Link className="nav-link" to="/results">
                 Results
               </Link>
+=======
+          </a>
+          <ul className="nav nav-tabs">
+            <li className="nav-item me-4">
+              <a className="nav-link" aria-current="page" href="#">
+                Latest Notifications
+              </a>
+            </li>
+            <li className="nav-item me-4">
+              <a className="nav-link" href="#">
+                Mock Tests
+              </a>
+            </li>
+            <li className="nav-item me-4">
+              <a className="nav-link" href="#">
+                Previous year Papers
+              </a>
+            </li>
+            <li className="nav-item me-4">
+              <a className="nav-link" aria-current="page" href="#">
+                Resources
+              </a>
+            </li>
+            <li className="nav-item me-4">
+              <a className="nav-link" aria-current="page" href="#">
+                Apply here
+              </a>
+            </li>
+            <li className="nav-item me-4">
+              <a className="nav-link" aria-current="page" href="#">
+                Results
+              </a>
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
             </li>
             <li className="nav-item me-4">
               <Link className="nav-link" to="/signin">
@@ -54,6 +100,7 @@ function Home() {
           </ul>
         </div>
       </nav>
+<<<<<<< HEAD
       <div
         style={{
           backgroundImage: `url("/background2.jpg")`,
@@ -681,4 +728,9 @@ function Home() {
   );
 }
 
+=======
+    </>
+  );
+}
+>>>>>>> 877a73aa5f770640a0dcaa129558f75ce55e54d0
 export default Home;
